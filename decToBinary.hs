@@ -1,0 +1,4 @@
+binary :: Int -> [Int]
+binary 0 = [0]
+binary 1 = [1]
+binary n = binary (n `div` 2) ++ [n `mod` 2]

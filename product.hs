@@ -1,2 +1,2 @@
-product :: [a] -> a
-product ns = foldr (*) 1 ns
+myproduct :: Num a => [a] -> a
+myproduct = foldr (*) 1
